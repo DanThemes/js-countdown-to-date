@@ -22,14 +22,6 @@ function countdown(to = '1 Jan 2023') {
 
     const secondsFinal = Number(minutesRemainder * 60).toString().toFixedWithoutRounding(0);
 
-
-    // console.log(`
-    //     Days: ${daysFinal}
-    //     Hours: ${hoursFinal}
-    //     Minutes: ${minutesFinal}
-    //     Seconds: ${secondsFinal}
-    // `)
-
     const title = document.querySelector('#title span');
     const daysEl = document.querySelector('#days span');
     const hoursEl = document.querySelector('#hours span');
