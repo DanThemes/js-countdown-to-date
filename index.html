@@ -9,70 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Reem+Kufi+Fun:wght@500&display=swap" rel="stylesheet">
-    <style>
-        body,html {
-            margin: 0;
-            padding: 0;
-        }
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height:100vh;
-            font-family: 'Reem Kufi Fun', sans-serif;
-            font-size:16px;
-        }
-        .container {
-            background: #fafafa;
-            box-shadow: 0 0 40px 0px rgb(0 0 0 / 15%);
-            min-height: 25vh;
-            padding: 2rem 1rem;
-            width: 100%;
-            max-width: 75vw;
-            border-radius: 16px;
-        }
-        .flex {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-        }
-        .flex > div {
-            font-size: 1.4em;
-            text-align: center;
-        }
-        .flex > div > span {
-            font-weight: 100;
-            font-size: 3rem;
-            display: block;
-            font-family: 'Monoton', cursive;
-            color: #919b6d;
-        }
-        .container h1 {
-            margin: 0 0 2rem 0;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid #eee;
-            font-weight: 100;
-            text-align: center;
-            font-size: 2rem;
-            font-family: 'Reem Kufi Fun', sans-serif;
-            text-transform: uppercase;
-        }
-        .container h1 span {
-            display: block;
-            font-size: 1rem;
-            color: #919b6d;
-        }
-    </style>
+    <link href="./style.css" rel="stylesheet"/>
 </head>
 <body>
 
     <div class="container">
         <h1 id="title">Countdown until: <span></span></h1>
-        <div class="flex">
+        <div class="grid">
             <div id="days">
                 <span>-</span> days
             </div>
